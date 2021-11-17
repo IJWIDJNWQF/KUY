@@ -1,20 +1,20 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Cam", "DarkTheme")
+local Window = Library.CreateLib("Capter Hub", "DarkTheme")
 
-local Tab = Window:NewTab("Cam1")
-local Section = Tab:NewSection("Cam1")
+local Tab = Window:NewTab("Cam1 สิทธ์เฉพราะผู้บริหาร")
+local Section = Tab:NewSection("Cam1 สิทธ์เฉพราะผู้บริหาร")
 
 local Tab = Window:NewTab("Cam2")
 local Section = Tab:NewSection("Cam2")
 
-local Tab = Window:NewTab("Cam3")
-local Section = Tab:NewSection("Cam3")
+local Tab = Window:NewTab("Cam3 สิทธ์เฉพราะผู้บริหาร")
+local Section = Tab:NewSection("Cam3 สิทธ์เฉพราะผู้บริหาร")
 
-local Tab = Window:NewTab("Cam4")
-local Section = Tab:NewSection("Cam4")
+local Tab = Window:NewTab("Cam4ใช้ไม่ได้")
+local Section = Tab:NewSection("Cam4ใช้ไม่ได้")
 
-local Tab = Window:NewTab("Cam5")
-local Section = Tab:NewSection("Cam5")
+local Tab = Window:NewTab("Cam5 สิทธ์เฉพราะผู้บริหาร")
+local Section = Tab:NewSection("Cam5 สิทธ์เฉพราะผู้บริหาร")
 
 local Tab = Window:NewTab("Cam6")
 local Section = Tab:NewSection("Cam6")
