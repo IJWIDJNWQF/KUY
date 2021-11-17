@@ -4,29 +4,69 @@ local Window = Library.CreateLib("Capter Hub", "DarkTheme")
 local Tab = Window:NewTab("Cam1 สิทธ์เฉพราะผู้บริหาร")
 local Section = Tab:NewSection("Cam1 สิทธ์เฉพราะผู้บริหาร")
 
+Section:NewButton("Cam1 สิทธ์เฉพราะผู้บริหาร", "Cam1 สิทธ์เฉพราะผู้บริหาร", function()
+    print("Clicked")
+end)
+
 local Tab = Window:NewTab("Cam2")
 local Section = Tab:NewSection("Cam2")
+
+Section:NewButton("Cam2", "Cam2", function()
+    print("Clicked")
+end)
 
 local Tab = Window:NewTab("Cam3 สิทธ์เฉพราะผู้บริหาร")
 local Section = Tab:NewSection("Cam3 สิทธ์เฉพราะผู้บริหาร")
 
+Section:NewButton("Cam 3 สิทธ์เฉพราะผู้บริหาร", "Cam3 สิทธ์เฉพราะผู้บริหาร", function()
+    print("Clicked")
+end)
+
 local Tab = Window:NewTab("Cam4ใช้ไม่ได้")
 local Section = Tab:NewSection("Cam4ใช้ไม่ได้")
+
+Section:NewButton("Cam4ใช้ไม่ได้", "Cam4ใช้ไม่ได้", function()
+    print("Clicked")
+end)
 
 local Tab = Window:NewTab("Cam5 สิทธ์เฉพราะผู้บริหาร")
 local Section = Tab:NewSection("Cam5 สิทธ์เฉพราะผู้บริหาร")
 
-local Tab = Window:NewTab("Cam6")
-local Section = Tab:NewSection("Cam6")
+Section:NewButton("Cam5 สิทธ์เฉพราะผู้บริหาร", "Cam5 สิทธ์เฉพราะผู้บริหาร", function()
+    print("Clicked")
+end)
 
-local Tab = Window:NewTab("Cam7")
-local Section = Tab:NewSection("Cam7")
+local Tab = Window:NewTab("Cam6เสียเงิน")
+local Section = Tab:NewSection("Cam6 เสียเงิน")
 
-local Tab = Window:NewTab("Cam8")
-local Section = Tab:NewSection("Cam8")
+Section:NewButton("Cam6Premiue เสียเงิน", "Cam6Premiue เสียเงิน", function()
+    print("Clicked")
+end)
 
-local Tab = Window:NewTab("Cam9")
-local Section = Tab:NewSection("Cam9")
+local Tab = Window:NewTab("Cam7ใช้ได้")
+local Section = Tab:NewSection("Cam7ใช้ได้")
 
-local Tab = Window:NewTab("Cam10")
-local Section = Tab:NewSection("Cam10")
+Section:NewButton("Cam7ใช้ได้", "Cam7ใช้ได้", function()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("Cam8พังใช้ไม่ได้
+local Section = Tab:NewSection("Cam8พังใช้ไม่ได้
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("Cam9 สิทธ์เฉพราะผู้บริหาร")
+local Section = Tab:NewSection("Cam9 สิทธ์เฉพราะผู้บริหาร")
+
+Section:NewButton("Cam9 สิทธ์เฉพราะผู้บริหาร", "Cam9 สิทธ์เฉพราะผู้บริหาร", function()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("Cam10ใช้ได้")
+local Section = Tab:NewSection("Cam10ใช้ได้")
+
+Section:NewButton("Cam10ใช้ได้", "Cam10ใช้ได้", function()
+    print("Clicked")
+end)
