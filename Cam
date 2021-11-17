@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Capter Hub", "DarkTheme")
+local Window = Library.CreateLib("Cam Hub", "DarkTheme")
 
 local Tab = Window:NewTab("Cam1 สิทธ์เฉพราะผู้บริหาร")
 local Section = Tab:NewSection("Cam1 สิทธ์เฉพราะผู้บริหาร")
